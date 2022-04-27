@@ -562,7 +562,7 @@ blockquote {
 }
 
 .card-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .card-text {
@@ -1189,7 +1189,9 @@ blockquote {
   padding-right: 0 !important; 
   padding-left: 0 !important;
   padding-bottom: 5em !important;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 /* ============ */
 
@@ -1245,4 +1247,25 @@ input:not(:disabled){
 #text-error{
   color: rgb(245, 72, 72);
 
+}
+
+.link-box{
+  background-color: #757575;
+  padding: 3px;
+  width: 50%;
+  margin: auto;
+}
+
+.link-box a{
+  font-size: .8em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.link-box a:hover{
+  color: #fff;
+}
+
+.link-long{
+  width: 70% !important;
 }

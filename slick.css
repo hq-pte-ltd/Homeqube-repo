@@ -104,3 +104,31 @@
 .carousel-indicators {
   height: 49px;
 }
+.prev_arrow, .next_arrow{
+  background: #515151;
+  padding: 2em;
+  font-size: 15px;
+  line-height: 0px;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 100;
+}
+
+.slider .next_arrow {
+  position: absolute;
+  bottom: 297px;
+  left: 110%;
+  display: inline-block;
+  
+  cursor: pointer;
+}
+
+.slider .prev_arrow {
+  position: absolute;
+  bottom: 297px;
+  left: -13%;
+  display: inline-block;
+  
+  cursor: pointer;
+  
+}
