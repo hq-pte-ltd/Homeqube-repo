@@ -1300,7 +1300,7 @@ input:not(:disabled){
 }
 
 .countdown div>span {
-    padding: 10px;
+    padding: 50px;
     display: inline-block
 } 
 
@@ -1311,9 +1311,41 @@ input:not(:disabled){
     font-family: "Rajdhani", sans-serif;
     font-style: normal;
     text-align: left;
-    padding: 20px;
     font-size: 1.2rem;
     color: gray;
     margin-bottom: 30px;
+}
+
+.time{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.time p{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  margin: 0 3px -6px;
+  display: flex;
+  justify-content: center;
+}
+
+.time-stick{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-stick p{
+  font-family: "Rajdhani", sans-serif;
+  font-style: normal;
+  margin: 0 3px -6px;
+  display: flex;
+  justify-content: center;
 }
 
