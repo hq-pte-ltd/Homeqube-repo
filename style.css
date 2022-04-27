@@ -1269,3 +1269,51 @@ input:not(:disabled){
 .link-long{
   width: 70% !important;
 }
+
+
+/* sa countdown */
+
+
+.containerwide
+{
+
+    width: 100%;
+    height: 40vh;
+ 
+}
+
+
+.countdown {
+    color: #fff;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: "Rajdhani", sans-serif;
+    font-style: normal;
+}
+
+.countdown>div {
+    padding: 20px;
+    background: #38383B;
+    display: inline-block;
+
+}
+
+.countdown div>span {
+    padding: 10px;
+    display: inline-block
+} 
+
+
+
+.timerheadtxt
+{
+    font-family: "Rajdhani", sans-serif;
+    font-style: normal;
+    text-align: left;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: gray;
+    margin-bottom: 30px;
+}
+
