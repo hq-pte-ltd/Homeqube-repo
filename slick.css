@@ -117,7 +117,7 @@
 .slider .next_arrow {
   position: absolute;
   bottom: 297px;
-  left: 110%;
+  left: 101%;
   display: inline-block;
   
   cursor: pointer;
@@ -126,7 +126,7 @@
 .slider .prev_arrow {
   position: absolute;
   bottom: 297px;
-  left: -13%;
+  left: -11%;
   display: inline-block;
   
   cursor: pointer;
