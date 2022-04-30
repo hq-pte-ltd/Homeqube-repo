@@ -26,8 +26,9 @@ $(function(){
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              prevArrow: false,
-              nextArrow: false
+              infinite: true,
+              prevArrow: true,
+              nextArrow: true
               
             }
           },
@@ -39,8 +40,9 @@ $(function(){
               slidesToScroll: 1,
               unslick: true,
               dots: false,
-              prevArrow: false,
-              nextArrow: false
+              infinite: true,
+              prevArrow: true,
+              nextArrow: true
             },
            
           }
