@@ -26,7 +26,6 @@ $(function(){
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              infinite: true,
               prevArrow: true,
               nextArrow: true
               
@@ -40,7 +39,6 @@ $(function(){
               slidesToScroll: 1,
               unslick: true,
               dots: false,
-              infinite: true,
               prevArrow: true,
               nextArrow: true
             },

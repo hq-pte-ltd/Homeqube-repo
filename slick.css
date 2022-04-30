@@ -116,16 +116,16 @@
 
 .slider .next_arrow {
   position: absolute;
-  bottom: 88px;
-  left: 56%;
+  bottom: 297px;
+  left: 99%;
   display: inline-block;
   cursor: pointer;
 }
 
 .slider .prev_arrow {
   position: absolute;
-  bottom: 85px;
-  left: 39%;
+  bottom: 297px;
+  left: -6%;
   display: inline-block;
   cursor: pointer;
 }
