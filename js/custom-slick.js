@@ -29,23 +29,24 @@ $(function(){
             breakpoint: 600,
             settings: {
               slidesToShow: 1,
-              prevArrow: false,
-              nextArrow: false,
-              arrows: false,
-              centerMode: true
+              // prevArrow: false,
+              // nextArrow: false,
+              // arrows: false,
+              
 
             }
           },
           {
             breakpoint: 375,
             settings: {
-              centerMode: true,
-              slidesToShow: 2,
+            
+              slidesToShow: 1,
               slidesToScroll: 1,
               unslick: true,
               dots: false,
-              prevArrow: false,
-              nextArrow: false,
+              // prevArrow: false,
+              // nextArrow: false,
+              // adaptiveHeight: true,
             },
            
           }
