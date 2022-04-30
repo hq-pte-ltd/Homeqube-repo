@@ -83,6 +83,9 @@ section {
 @media (min-width: 420px) {
 }
 @media (min-width: 576px) {
+  .one {
+    height: 100vh;
+  }
 }
 @media (min-width: 768px) {
 }
@@ -1352,3 +1355,19 @@ input:not(:disabled){
   justify-content: center;
 }
 
+@media (min-width: 120px) {
+  .desktop-view{
+    display: none;
+  }
+  .mobile-view{
+   display: block;
+  }
+}
+@media (min-width: 768px) {
+  .desktop-view{
+    display: block;
+  }
+  .mobile-view{
+   display: none;
+  }
+}
