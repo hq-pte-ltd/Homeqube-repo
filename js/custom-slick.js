@@ -15,32 +15,37 @@ $(function(){
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 2,
               slidesToScroll: 1,
               infinite: true,
-              dots: false
+              prevArrow: false,
+              nextArrow: false,
+              dots: false,
+              centerMode: true
+
             }
           },
           {
             breakpoint: 600,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1,
-              prevArrow: true,
-              nextArrow: true
-              
+              prevArrow: false,
+              nextArrow: false,
+              arrows: false,
+              centerMode: true
+
             }
           },
           {
             breakpoint: 375,
             settings: {
               centerMode: true,
-              slidesToShow: 1,
+              slidesToShow: 2,
               slidesToScroll: 1,
               unslick: true,
               dots: false,
-              prevArrow: true,
-              nextArrow: true
+              prevArrow: false,
+              nextArrow: false,
             },
            
           }

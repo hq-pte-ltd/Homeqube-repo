@@ -16,7 +16,7 @@ const releaseTimeNFT = new Date('June 22, 2022 12:00:00');
 function updateCountdowntime(){
     const currentTime = new Date();
     const diff = releaseTime - currentTime;
-    console.log(diff);
+    // console.log(diff);
 
     const d = Math.floor(diff / 1000 / 60 / 60 / 24);
     const h = Math.floor(diff / 1000 / 60 / 60) % 24;
@@ -32,7 +32,7 @@ function updateCountdowntime(){
 function updateCountdowntimeNFT(){
     const currentTime = new Date();
     const diff = releaseTimeNFT - currentTime;
-    console.log(diff);
+    // console.log(diff);
 
     const d = Math.floor(diff / 1000 / 60 / 60 / 24);
     const h = Math.floor(diff / 1000 / 60 / 60) % 24;
